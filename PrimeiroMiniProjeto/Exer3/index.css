@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f9f9f9;
+    color: #333;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo {
+    color: #5d5fef;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.descricao {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.botao-teste {
+    background: #5d9eff;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.tabela {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1px;
+    background: #ddd;
+}
+
+.coluna {
+    background: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.titulo-coluna {
+    background: #f0f0f0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.basico {
+    background: #e0f0ff;
+}
+
+.padrao {
+    background: #cce0ff;
+}
+
+.avancado {
+    background: #dcd1ff;
+}
+
+.preco {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.linha {
+    display: contents;
+}
+
+.botao-escolha {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botao-escolha.basico {
+    background: #7bc8f6;
+}
+
+.botao-escolha.padrao {
+    background: #4d9efc;
+}
+
+.botao-escolha.avancado {
+    background: #9a76f9;
+}
